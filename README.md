@@ -8,7 +8,7 @@ Tudo feito com Python!
 
 - Raspa comentários do Youtube
 - Gera imagens dinamicamente seguindo um template
-- Faz um post no Twitter todos os dias
+- Faz um post no [Twitter](https://twitter.com/BomdiaYTbot) todos os dias
 
 > Sabe aquele abraço apertado e bem gostoso que
 > só se dá a alguém especial? Estou te mandando
