@@ -16,7 +16,7 @@ class Scrapping:
     def ScrapComment(self, url):
         while True:
             option = webdriver.FirefoxOptions()
-            option.add_argument("-remote-debugging-port=9224")
+            #option.add_argument("-remote-debugging-port=9224")
             option.add_argument("-headless")
             option.add_argument("-disable-gpu")
             option.add_argument("-no-sandbox")

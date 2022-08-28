@@ -25,6 +25,7 @@ if __name__=="__main__":
 
 
     controller = Controller()
+    controller.generateImage(random.choice(urls))
     schedule.every().day.at("07:00").do(job)
     while True:
         schedule.run_pending()

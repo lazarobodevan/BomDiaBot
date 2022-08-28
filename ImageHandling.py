@@ -13,7 +13,7 @@ class ImageHandling:
         lines = textwrap.wrap(random_comment, width=20)
         y_text = 150
         image = Image.open("fundo.png")
-        font_type = ImageFont.truetype("arial.ttf",36)
+        font_type = ImageFont.truetype("./font/arial.ttf",36)
         draw = ImageDraw.Draw(image)
         for line in lines:
             width, height = font_type.getsize(line)
